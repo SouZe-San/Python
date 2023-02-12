@@ -15,33 +15,34 @@ def length(list):
     return count
 
 def isMin(num1, num2):
-    print(num1 if num1<num2 else num2)
+    print("The Minimum is: ",num1 if num1<num2 else num2)
     
 def isMax(num1, num2):
-    print(num1 if num1>num2 else num2)
+    print("The Maximum is: ",num1 if num1>num2 else num2)
 
 def maxMinInList(l1):
     l1.sort()
-    print("The Max Element in List Is : ", l1[len(l1)-1])
+    print("\nThe Max Element in List Is : ", l1[len(l1)-1])
     print("The Min Element in List Is : ", l1[0])
 
         
 if __name__ == "__main__":
     l1 = [2,3,27,33,23,24,2,4,23,4,2,100,6,4,7,45,73,75,4]
+    # l1 = input("Enter a list: ")
     
     # @ LIST PROBLEMS ---->
     
     # ! Problem 1 : Swap last and first element
     List = list(map(int,input("Enter The List: ").split()))
-    print(List)
+    print("Swap Last and first element-->")
     print(swapListNumber(List,len(List)))
     
     # ! Problem 2: swap any number in list
-    print("List: ", l1)
+    print("\n\n List: ", l1)
     print(swapAnyNumberInList(l1, int(input("Enter the 1st position: ")), int(input("Enter the 2nd position: "))))
     
     #! Problem 3: Length Of a List 
-    print(length(l1))
+    print("\n\n the Length of List is: ",length(l1))
     
     # ! Problem 4: Maximum / Minimum of two numbers in Python
     isMin(int(input("enter 1st Number: ")),int(input("enter 2nd Number: ")))

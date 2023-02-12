@@ -21,7 +21,7 @@ def isPalindromeOrSymmetric(string):
         print("No, The Given String Is not a Palindrome")
 
 def reverseWord(str):
-   print(f"The Reverse of{str} is: ",str[-1:: -1])
+   print(f"\nThe Reverse of {str} is: ",str[-1:: -1])
 
 def reverseSentence(str):
     wordStock = list(str.split(' '))
@@ -62,14 +62,14 @@ if __name__ == "__main__":
     
     #! Problem 6: Reverse words in a given String in Python
     reverseWord("hello")
-    print(reverseSentence(input("Enter A Sentence of reverse the whole Sentence: ")))
+    print("\n\n",reverseSentence(input("Enter A Sentence of reverse the whole Sentence: ")))
     
     #! Problem 7: Ways to remove i’th character from string in Python
-    str = input("Enter A Word : ")
+    str = input("\nEnter A Word : ")
     pos = int(input("Enter The index of removable latter: "))
     print(removeIthElement(str,pos))
     
     #! problem 8: Find length of a string in python (4 ways)
-    print("the Length of the string is: ", lengthString(input("Enter a String for Checking the Length: ")))
+    print("\nthe Length of the string is: ", lengthString(input("Enter a String for Checking the Length: ")))
     #! Problem 9: to print even length words in a string
-    evenWordFind(input("For finding Even length word,Enter A Sentence : "))
+    evenWordFind(input("\nFor finding Even length word,Enter A Sentence : "))

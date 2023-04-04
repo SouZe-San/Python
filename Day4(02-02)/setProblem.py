@@ -46,5 +46,8 @@ if __name__=='__main__':
     
 # ! Problem 5.Check if two lists have at least one element common
     s2 ={3 ,32,5,66,75,76,8,54,34}
+    
+    print(s1)
+    print(s2)
     commonElement(s1,s2)
     

@@ -1,18 +1,16 @@
 
-# capitalise the string
-# -count no of vowels
-# -use uppercase
-# -use lowercase
-# -count of no of elements in string
-# - count no of vowels
-
-
 str = input("Enter A String : ")
 
 # String Operation
+
+# capitalize the string
 print("After Capitalized:: ", str.capitalize())
-print("Transform to LowerCase :: ", str.lower())
-print("Transform to UpperCase :: ", str.upper())
+upperString = str.upper()
+# -use uppercase
+print("Transform to UpperCase :: ", upperString)
+# -use lowercase
+print("Transform to LowerCase :: ", upperString.lower())
+# -count of no of elements in string
 print("How Many Letter present in string:-> ", len(str))
 
 

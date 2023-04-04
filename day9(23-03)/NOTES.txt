@@ -1,0 +1,15 @@
+except IndexError :
+except IndexError :
+except IndexError :
+
+FileNotFoundError --> if File not present
+
+
+1> Input a filename from the user load the text from this file if this is this file, exit otherwise tge text should blank..
+
+ADDRESS referencing:: when the link between address and the corresponding data is established...
+
+most common Error:
+    ImportError
+    IndexError
+    

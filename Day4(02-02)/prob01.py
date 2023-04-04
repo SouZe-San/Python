@@ -33,9 +33,9 @@ if __name__ == "__main__":
     # @ LIST PROBLEMS ---->
     
     # ! Problem 1 : Swap last and first element
-    List = list(map(int,input("Enter The List: ").split()))
-    print("Swap Last and first element-->")
-    print(swapListNumber(List,len(List)))
+    # List = list(map(int,input("Enter The List: ").split()))
+    # print("Swap Last and first element-->")
+    # print(swapListNumber(List,len(List)))
     
     # ! Problem 2: swap any number in list
     print("\n\n List: ", l1)

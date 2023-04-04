@@ -24,7 +24,7 @@ def sumOfTuple(tuple):
     print("Sum Of Tuple is : ", sum)
 
 def cubeTuple(tup): 
-    return tuple(map(lambda x: x**3, tup))
+    return list(map(lambda x: (x,x**3), tup))
 
 if __name__ == '__main__':
     t1 = (2,3,27,33,23,24,4,23,2,100,6,4,7,45,73,75,40)
